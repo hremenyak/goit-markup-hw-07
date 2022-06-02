@@ -19,33 +19,35 @@
     <!-- Header-->
     <header class="page-header">
       <!-- Navigation-->
-      <div class="container page-header-container">
-        <nav class="site-nav">
-          <a href="./index.html" class="header-logo logo"
-            >Web<span class="logo-black">Studio</span>
+      <div class="container page-header__container">
+        <nav class="navigation">
+          <a href="./index.html" class="header__logo logo"
+            >Web<span class="logo--black">Studio</span>
           </a>
-          <ul class="site-nav-list list">
-            <li class="site-nav-item">
-              <a href="./index.html" class="site-nav-link">Студия</a>
+          <ul class="navigation-list list">
+            <li class="navigation__item">
+              <a href="./index.html" class="navigation__link">Студия</a>
             </li>
-            <li class="site-nav-item">
-              <a href="./portfolio.html" class="site-nav-link current">Портфолио</a>
+            <li class="navigation__item">
+              <a href="./portfolio.html" class="navigation__link navigation__link--current"
+                >Портфолио</a
+              >
             </li>
-            <li class="site-nav-item"><a href="" class="site-nav-link">Контакты</a></li>
+            <li class="navigation__item"><a href="" class="navigation__link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="contacts list">
-          <li class="contacts-item">
-            <a class="contacts-info" href="mailto:info@devstudio.com">
-              <svg class="contacts-icon" width="16" height="12">
+          <li class="contacts__item">
+            <a class="contacts__info" href="mailto:info@devstudio.com">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="contacts-item">
-            <a href="tel:+380961111111" class="contacts-info">
-              <svg class="contacts-icon" width="10" height="16">
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__info">
+              <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -61,25 +63,27 @@
           <!--Logical heading-->
           <h1 class="visually-hidden">Наші роботи</h1>
           <ul class="filter list">
-            <li class="filter-item"><button type="button" class="filter-button">Все</button></li>
-            <li class="filter-item">
-              <button type="button" class="filter-button">Веб-сайты</button>
+            <li class="filter__item"><button type="button" class="filter__button">Все</button></li>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Веб-сайты</button>
             </li>
-            <li class="filter-item">
-              <button type="button" class="filter-button">Приложения</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Приложения</button>
             </li>
-            <li class="filter-item"><button type="button" class="filter-button">Дизайн</button></li>
-            <li class="filter-item">
-              <button type="button" class="filter-button">Маркетинг</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Дизайн</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="portfolio-cards list">
-            <li class="portfolio-card">
-              <a class="portfolio-link" href="">
+          <ul class="cardset list">
+            <li class="cardset__item">
+              <a class="cardset__link" href="">
                 <div class="portfolio-thumb">
                   <img src="./images/portfolio/team.jpg" alt="вебсайт" width="370" />
-                  <div class="portfolio-overlay">
-                    <p class="card-description">
+                  <div class="cardset__overlay">
+                    <p class="cardset__description">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
@@ -88,21 +92,21 @@
                 </div>
 
                 <div class="portfolio-text">
-                  <h2 class="cardset-title">Технокряк</h2>
-                  <p class="section-text">Веб-сайт</p>
+                  <h2 class="cardset__title">Технокряк</h2>
+                  <p class="cardset__text">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link" href="">
+            <li class="cardset__item">
+              <a class="cardset__link" href="">
                 <div class="portfolio-thumb">
                   <img
                     src="./images/portfolio/basketball.jpg"
                     alt="постер гри у баскетбол"
                     width="370"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="card-description">
+                  <div class="cardset__overlay">
+                    <p class="cardset__description">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
@@ -111,17 +115,17 @@
                 </div>
 
                 <div class="portfolio-text">
-                  <h2 class="cardset-title">Постер New Orlean vs Golden Star</h2>
-                  <p class="section-text">Дизайн</p>
+                  <h2 class="cardset__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="cardset__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link" href="">
+            <li class="cardset__item">
+              <a class="cardset__link" href="">
                 <div class="portfolio-thumb">
                   <img src="./images/portfolio/restaurant.jpg" alt="ресторан" width="370" />
-                  <div class="portfolio-overlay">
-                    <p class="card-description">
+                  <div class="cardset__overlay">
+                    <p class="cardset__description">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
@@ -129,17 +133,17 @@
                   </div>
                 </div>
                 <div class="portfolio-text">
-                  <h2 class="cardset-title">Ресторан Seafood</h2>
-                  <p class="section-text">Приложение</p>
+                  <h2 class="cardset__title">Ресторан Seafood</h2>
+                  <p class="cardset__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link" href="">
+            <li class="cardset__item">
+              <a class="cardset__link" href="">
                 <div class="portfolio-thumb">
                   <img src="./images/portfolio/earphones.jpg" alt="навушники" width="370" />
-                  <div class="portfolio-overlay">
-                    <p class="card-description">
+                  <div class="cardset__overlay">
+                    <p class="cardset__description">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
@@ -148,17 +152,17 @@
                 </div>
 
                 <div class="portfolio-text">
-                  <h2 class="cardset-title">Проект Prime</h2>
-                  <p class="section-text">Маркетинг</p>
+                  <h2 class="cardset__title">Проект Prime</h2>
+                  <p class="cardset__text">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link" href="">
+            <li class="cardset__item">
+              <a class="cardset__link" href="">
                 <div class="portfolio-thumb">
                   <img src="./images/portfolio/boxes.jpg" alt="дві коробки" width="370" />
-                  <div class="portfolio-overlay">
-                    <p class="card-description">
+                  <div class="cardset__overlay">
+                    <p class="cardset__description">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
@@ -166,17 +170,17 @@
                   </div>
                 </div>
                 <div class="portfolio-text">
-                  <h2 class="cardset-title">Проект Boxes</h2>
-                  <p class="section-text">Приложение</p>
+                  <h2 class="cardset__title">Проект Boxes</h2>
+                  <p class="cardset__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link" href="">
+            <li class="cardset__item">
+              <a class="cardset__link" href="">
                 <div class="portfolio-thumb">
                   <img src="./images/portfolio/monitor.jpg" alt="монітор" width="370" />
-                  <div class="portfolio-overlay">
-                    <p class="card-description">
+                  <div class="cardset__overlay">
+                    <p class="cardset__description">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
@@ -184,17 +188,17 @@
                   </div>
                 </div>
                 <div class="portfolio-text">
-                  <h2 class="cardset-title">Inspiration has no Borders</h2>
-                  <p class="section-text">Веб-сайт</p>
+                  <h2 class="cardset__title">Inspiration has no Borders</h2>
+                  <p class="cardset__text">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link" href="">
+            <li class="cardset__item">
+              <a class="cardset__link" href="">
                 <div class="portfolio-thumb">
                   <img src="./images/portfolio/magazine.jpg" alt="журнал" width="370" />
-                  <div class="portfolio-overlay">
-                    <p class="card-description">
+                  <div class="cardset__overlay">
+                    <p class="cardset__description">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
@@ -203,17 +207,17 @@
                 </div>
 
                 <div class="portfolio-text">
-                  <h2 class="cardset-title">Издание Limited Edition</h2>
-                  <p class="section-text">Дизайн</p>
+                  <h2 class="cardset__title">Издание Limited Edition</h2>
+                  <p class="cardset__text">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link" href=""
+            <li class="cardset__item">
+              <a class="cardset__link" href=""
                 ><div class="portfolio-thumb">
                   <img src="./images/portfolio/label.jpg" alt="лейбл" width="370" />
-                  <div class="portfolio-overlay">
-                    <p class="card-description">
+                  <div class="cardset__overlay">
+                    <p class="cardset__description">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
@@ -221,17 +225,17 @@
                   </div>
                 </div>
                 <div class="portfolio-text">
-                  <h2 class="cardset-title">Проект LAB</h2>
-                  <p class="section-text">Маркетинг</p>
+                  <h2 class="cardset__title">Проект LAB</h2>
+                  <p class="cardset__text">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link" href="">
+            <li class="cardset__item">
+              <a class="cardset__link" href="">
                 <div class="portfolio-thumb">
                   <img src="./images/portfolio/laptop.jpg" alt="ноутбук" width="370" />
-                  <div class="portfolio-overlay">
-                    <p class="card-description">
+                  <div class="cardset__overlay">
+                    <p class="cardset__description">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
@@ -239,8 +243,8 @@
                   </div>
                 </div>
                 <div class="portfolio-text">
-                  <h2 class="cardset-title">Growing Business</h2>
-                  <p class="section-text">Приложение</p>
+                  <h2 class="cardset__title">Growing Business</h2>
+                  <p class="cardset__text">Приложение</p>
                 </div></a
               >
             </li>
@@ -250,20 +254,22 @@
     </main>
     <!-- Footer -->
     <footer class="footer-section">
-      <div class="container footer-container">
-        <div>
-          <a href="./index.html" class="footer logo">Web<span class="logo-white">Studio</span> </a>
+      <div class="container footer-section__container">
+        <div class="footer-address-container">
+          <a href="./index.html" class="logo footer-section__logo"
+            >Web<span class="logo--white">Studio</span>
+          </a>
           <address>
             <ul class="footer list">
-              <li class="footer-item">
+              <li class="footer__item">
                 <a href="https://goo.gl/maps/vXNEnYkoRaiYwRNc7" class="address-street-list">
                   г. Киев, пр-т Леси Украинки, 26
                 </a>
               </li>
-              <li class="footer-item">
+              <li class="footer__item">
                 <a href="mailto:info@example.com" class="footer-contacts">info@example.com</a>
               </li>
-              <li class="footer-item">
+              <li class="footer__item">
                 <a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a>
               </li>
             </ul>
@@ -273,41 +279,42 @@
         <div class="footer-socials">
           <b class="footer-title">присоединяйтесь</b>
 
-          <ul class="socials-list list">
-            <li class="socials-item footer-socials-item">
-              <a class="socials-link footer-socials-link" href="">
-                <svg class="socials-icon" width="20" height="20">
+          <ul class="socials list">
+            <li class="socials__item footer-socials__item">
+              <a class="socials__link socials__link--dark" href="">
+                <svg class="socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="socials-item">
-              <a class="socials-link footer-socials-link" href="">
-                <svg class="socials-icon" width="20" height="20">
+            <li class="socials__item">
+              <a class="socials__link socials__link--dark" href="">
+                <svg class="socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="socials-item">
-              <a class="socials-link footer-socials-link" href="">
-                <svg class="socials-icon" width="20" height="20">
+            <li class="socials__item">
+              <a class="socials__link socials__link--dark" href="">
+                <svg class="socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="socials-item">
-              <a class="socials-link footer-socials-link" href="">
-                <svg class="socials-icon" width="20" height="20">
+            <li class="socials__item">
+              <a class="socials__link socials__link--dark" href="">
+                <svg class="socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="footer-form">
+
+        <div class="form-container footer-section__form-container">
           <b class="footer-title">Подпишитесь на рассылку</b>
-          <form class="form">
-            <input class="footer-input" type="email" name="email" placeholder="E-mail" />
+          <form class="footer-form">
+            <input class="footer-form__input" type="email" name="email" placeholder="E-mail" />
             <button type="submit" class="form-button">
               <span class="button-text">Подписаться</span>
               <svg width="24" height="24">
