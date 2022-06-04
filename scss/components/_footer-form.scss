@@ -1,7 +1,5 @@
 .footer-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex;
 }
 
 .footer-section__form-container {

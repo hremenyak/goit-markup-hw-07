@@ -1,6 +1,5 @@
 .features {
-  display: flex;
-  align-items: center;
+  @include centeredFlex;
 
   &__title {
     margin-bottom: 10px;
@@ -27,9 +26,8 @@
 }
 
 .box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex;
+
   width: 270px;
   height: 120px;
   margin-bottom: 30px;

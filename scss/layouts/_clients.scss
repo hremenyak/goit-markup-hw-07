@@ -1,6 +1,5 @@
 .clients {
-  display: flex;
-  align-items: center;
+  @include centeredFlex;
 
   &__icon {
     fill: currentColor;
@@ -12,10 +11,9 @@
 }
 
 .clients__link {
-  display: flex;
+  @include centeredFlex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;

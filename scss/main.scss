@@ -1,13 +1,13 @@
 // utils
 @import './utils/vars';
 @import './utils/visually-hidden';
+@import './utils/mixins';
 
 // base styles
 
 @import './base/common';
 @import './base/reset';
 @import './base/container';
-
 
 // components
 
@@ -19,10 +19,6 @@
 @import './components/footer-form';
 @import './components/modal-form';
 @import './components/form-button';
-
-
-
-
 
 // layouts
 @import './layouts/page-header';

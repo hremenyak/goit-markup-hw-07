@@ -1,6 +1,6 @@
 .page-header {
-  display: flex;
-  align-items: center;
+  @include centeredFlex;
+
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
@@ -11,8 +11,7 @@
 }
 
 .navigation {
-  display: flex;
-  align-items: center;
+  @include centeredFlex;
 
   &-list {
     display: flex;
@@ -63,8 +62,8 @@
 }
 
 .contacts {
-  align-items: center;
-  display: flex;
+  @include centeredFlex;
+
   margin-left: auto;
 
   &__icon {
@@ -78,8 +77,8 @@
 }
 
 .contacts__info {
-  display: flex;
-  align-items: center;
+  @include centeredFlex;
+
   color: var(--primary-color);
   font-weight: 500;
   transition: color 250ms var(--timing-function);
