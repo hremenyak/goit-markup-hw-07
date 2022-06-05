@@ -1,5 +1,5 @@
 .filter {
-  @include centeredFlex;
+  @extend %centeredFlex;
   margin-bottom: 50px;
 
   &__item:not(:last-child) {
@@ -9,7 +9,6 @@
 
 .filter__button {
   padding: 8px 22px;
-  margin-right: 8px;
   border-radius: 4px;
   border: 1px solid transparent;
   color: var(--title-color);
@@ -22,10 +21,6 @@
   cursor: pointer;
   transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function),
     box-shadow 250ms var(--timing-function);
-
-  &:last-child {
-    margin-right: 0px;
-  }
 
   &:hover,
   &:focus {

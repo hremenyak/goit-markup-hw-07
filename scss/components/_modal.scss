@@ -20,7 +20,7 @@
   }
 
   &-button {
-    @include centeredFlex;
+    @extend %centeredFlex;
 
     position: absolute;
     top: 8px;

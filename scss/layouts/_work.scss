@@ -1,17 +1,17 @@
 .work {
   display: flex;
 
-  &__example {
+  &__item {
     position: relative;
     margin-right: 30px;
   }
 
-  &__example:last-child {
+  &__item:last-child {
     margin-right: 0px;
   }
 
   &__text {
-    @include centeredFlex;
+    @extend %centeredFlex;
     position: absolute;
 
     width: 100%;

@@ -53,7 +53,7 @@
   }
 
   &__policy {
-    @include centeredFlex;
+    @extend %centeredFlex;
     margin-bottom: 30px;
   }
 
@@ -118,7 +118,7 @@
 }
 
 .checkbox__icon {
-  @include centeredFlex;
+  @extend %centeredFlex;
 
   width: 16px;
   height: 15px;

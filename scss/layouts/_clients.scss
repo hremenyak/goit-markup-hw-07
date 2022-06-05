@@ -1,5 +1,5 @@
 .clients {
-  @include centeredFlex;
+  @extend %centeredFlex;
 
   &__icon {
     fill: currentColor;
@@ -11,7 +11,7 @@
 }
 
 .clients__link {
-  @include centeredFlex;
+  @extend %centeredFlex;
   flex-wrap: wrap;
 
   width: 170px;

@@ -1,5 +1,5 @@
 .features {
-  @include centeredFlex;
+  @extend %centeredFlex;
 
   &__title {
     margin-bottom: 10px;
@@ -23,13 +23,13 @@
   &:nth-child(4) {
     margin-bottom: 94px;
   }
-}
 
-.box {
-  @include centeredFlex;
+  &__box {
+    @extend %centeredFlex;
 
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background: rgba(245, 244, 250, 1);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background: rgba(245, 244, 250, 1);
+  }
 }

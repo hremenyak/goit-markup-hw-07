@@ -1,5 +1,5 @@
 .page-header {
-  @include centeredFlex;
+  @extend %centeredFlex;
 
   padding-top: 24px;
   padding-bottom: 25px;
@@ -11,14 +11,14 @@
 }
 
 .navigation {
-  @include centeredFlex;
+  @extend %centeredFlex;
 
   &-list {
     display: flex;
   }
 }
 
-.navigation__item {
+.navigation-list__item {
   position: relative;
 
   &:not(:last-child) {
@@ -26,7 +26,7 @@
   }
 }
 
-.navigation__link {
+.navigation-list__link {
   padding-top: 32px;
   padding-bottom: 32px;
   text-decoration: none;
@@ -62,7 +62,7 @@
 }
 
 .contacts {
-  @include centeredFlex;
+  @extend %centeredFlex;
 
   margin-left: auto;
 
@@ -76,8 +76,8 @@
   }
 }
 
-.contacts__info {
-  @include centeredFlex;
+.contacts__link {
+  @extend %centeredFlex;
 
   color: var(--primary-color);
   font-weight: 500;

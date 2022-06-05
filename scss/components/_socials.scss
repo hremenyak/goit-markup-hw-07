@@ -1,5 +1,5 @@
 .socials {
-  @include centeredFlex;
+  @extend %centeredFlex;
 
   &__item:not(:last-child) {
     margin-right: 10px;
@@ -7,7 +7,7 @@
 }
 
 .socials__link {
-  @include centeredFlex;
+  @extend %centeredFlex;
 
   width: 44px;
   height: 44px;
